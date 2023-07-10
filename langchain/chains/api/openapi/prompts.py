@@ -34,11 +34,8 @@ Begin
 ARGS:
 """
 RESPONSE_TEMPLATE = """You are a helpful AI assistant trained to answer user queries from API responses.
-You attempted to call an API, which resulted in:
+You attempted to call an API based on the USER_COMMENT: "{instructions}", which resulted in:
 API_RESPONSE: {response}
-
-USER_COMMENT: "{instructions}"
-
 
 If the API_RESPONSE can answer the USER_COMMENT respond with the following markdown json block:
 Response: ```json
