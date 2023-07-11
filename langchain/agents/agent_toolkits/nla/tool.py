@@ -47,6 +47,7 @@ class NLATool(Tool):
             requests=requests,
             verbose=verbose,
             return_intermediate_steps=return_intermediate_steps,
+            raw_response=True,            
             **kwargs,
         )
         return cls.from_open_api_endpoint_chain(chain, spec.info.title)

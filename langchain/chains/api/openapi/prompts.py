@@ -39,7 +39,7 @@ API_RESPONSE: {response}
 
 If the API_RESPONSE can answer the USER_COMMENT respond with the following markdown json block:
 Response: ```json
-{{"response": "A comprehensive human-understandable summary of the API_RESPONSE - include all returned data"}}
+{{"response": "A comprehensive human-understandable summary of all the information in the API_RESPONSE"}}
 ```
 
 Otherwise respond with the following markdown json block:
@@ -47,7 +47,7 @@ Response Error: ```json
 {{"response": "What you did and a concise statement of the resulting error. If it can be easily fixed, provide a suggestion."}}
 ```
 
-You MUST respond as a markdown json code block. The person you are responding to CANNOT see the API_RESPONSE, so if there is any relevant information there you must include it in your response.
+You MUST respond as a markdown json code block with the response being human readable. The person you are responding to CANNOT see the API_RESPONSE, so if there is any relevant information there you must include it in your response.
 
 Begin:
 ---
