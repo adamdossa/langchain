@@ -39,7 +39,7 @@ API_RESPONSE: {response}
 
 If the API_RESPONSE can answer the USER_COMMENT respond with the following markdown json block:
 Response: ```json
-{{"response": "Human-understandable synthesis of the API_RESPONSE"}}
+{{"response": "A comprehensive human-understandable summary of the API_RESPONSE - include all returned data"}}
 ```
 
 Otherwise respond with the following markdown json block:
